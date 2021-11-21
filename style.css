@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+body{
+    background-image:conic-gradient(rgba(0, 0, 0, 0.6), rgba(0,0,0, 0.6)), url(Netflix_cover2.jpg);
+    height: 100v;
+    background-size: cover; 
+    font-weight: 300;
+}
+
+.logo{
+    height: 115px;
+    margin-left: 40px;
+    margin-top: -5px;
+}
+
+.nav_list{
+    list-style: none;
+    float: right;
+    margin-top: 15px;
+}
+
+li{
+    display: block;
+    float: right;
+    margin: 15px;
+}
+
+select{
+    background: rgba(255, 255, 255, 0);
+    color: white;
+    padding:8px 15px;
+    border-radius: 1px;
+    border-color: white;
+}
+
+option{
+    background: rgb(155, 154, 154);
+}
+
+.lang{
+    border-color: white;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.loginbtn{
+    background-color:#e50914;
+    color: white;
+    line-height: normal;
+    font-size: 15px;
+    font-weight: 550;
+    padding:8px 17px;
+    margin-right: 40px;
+    border-radius: 2px;
+    border:none;
+}
+
+.loginbtn:hover{
+    cursor: pointer;
+}
+
+.content{
+    color: white;
+    text-align: center;
+    margin-top: 13vh;
+}
+
+.heading{
+    font-size: 70px;
+}
+
+.tagline1{
+    font-size:27px;
+    margin-top: 17px;
+    font-weight: 400;
+}
+
+.tagline2{
+    font-size: 20px;
+    margin-top: 28px;
+    font-weight: 400;
+}
+
+.input{
+    margin-top: 20px;
+    justify-content: center;
+    display: flex;
+}
+
+.email{
+    height: 70px;
+    width: 600px;
+    border: none;
+    font-size: 17px;
+}
+
+.email::placeholder{
+    padding-left: 10px;
+}
+
+.startbtn{
+    color: white;
+    background-color: #e50914;
+    margin-left: -4px;
+    height: 70px;
+    width:220px;
+    font-size: 30px;
+    border: none;
+}
+
+.startbtn:hover{
+    background-color:#fd0511;
+    cursor: pointer;
+}
